@@ -8,7 +8,7 @@ response = requests.get('https://www.teamrankings.com/ncb/trends/ats_trends/')
 
 # Parse the HTML content
 soup = BeautifulSoup(response.text, 'html.parser')
-# with open("ats_trends.html", "w") as f:
+# with open("schedule.html", "w") as f:
 #     f.write(str(soup))
 
 # Find the table element
